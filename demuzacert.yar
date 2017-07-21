@@ -5,6 +5,7 @@ rule PotentiallyCompromisedCert
         description = "Search for PE files using cert issued to DEMUZA "
         author = "Brian Carter"
         last_modified = "July 21, 2017"
+        sample = "7ef8f5e0ca92a0f3a5bd8cdc52236564"
         TLP = "WHITE"
 
     strings:
